@@ -10,5 +10,11 @@ We have to explicity apply a type annotation like so... let number: number[] = [
 
 **/
 
+
+// Basic declaration
 let numbers: number[] = [1, 2, 3];
 let names: string[] = ["Bo", "Hunter", "Nick"];
+
+
+// Prevent an array from being changed. Apply the readonly keyword
+const articles: readonly string[] = ["Article 1"];

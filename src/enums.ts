@@ -3,7 +3,7 @@
 Enums
 
 Typescript has a built in type named enum. 
-Enums respresnt a list of related constants.
+Enums represent a list of related constants.
 Enums are declared using PascalCase including their member items.
 
 
