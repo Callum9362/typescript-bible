@@ -1,0 +1,1 @@
+{"version":3,"file":"nullable.js","sourceRoot":"","sources":["../src/nullable.ts"],"names":[],"mappings":";AAcA,SAAS,KAAK,CAAC,IAA+B;IAE1C,IAAG,IAAI,EACP;QACI,OAAO,CAAC,GAAG,CAAC,IAAI,CAAC,WAAW,EAAE,CAAC,CAAC;KACnC;IACD,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC,CAAC;AACzB,CAAC;AAED,KAAK,CAAC,IAAI,CAAC,CAAC"}
