@@ -5,4 +5,4 @@ let is_published = true;
 console.log(sales);
 console.log(course);
 console.log(is_published);
-//# sourceMappingURL=primitives.js.map
+//# sourceMappingURL=type_primitives.js.map

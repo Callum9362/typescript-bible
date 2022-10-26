@@ -1,6 +1,7 @@
 /** 
  * 
-Lesson 1 : Primitive Types
+ * 
+Primitive Types
 
 In Typescript we do not always need to annote our variables.
 This is because the Typescript compiler can detect variables based on their value.
@@ -22,3 +23,4 @@ let is_published = true;
 console.log(sales);
 console.log(course);
 console.log(is_published);
+
