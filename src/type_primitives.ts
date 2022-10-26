@@ -16,9 +16,15 @@ We can write...
 
 **/
 
+// This is an example of declaring types implicitly
 let sales = 123_456_789;
 let course = 'Typescript';
 let is_published = true;
+
+// This is an example of declaring types explicitly
+let salary : number  = 123_456_789;
+let languaege: string = 'Typescript';
+let checked: boolean = true;
 
 console.log(sales);
 console.log(course);
