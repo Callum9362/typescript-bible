@@ -29,3 +29,13 @@ let car: Car = {
         console.log(date);
     }
 }
+
+type Pet = {
+    species: string,
+    breed: string
+}
+
+let myPet: Pet = {
+    species: "Dog",
+    breed: "Labrador"
+}

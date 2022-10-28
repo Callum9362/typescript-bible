@@ -5,7 +5,7 @@ Enums
 Typescript has a built in type named enum. 
 Enums represent a list of related constants.
 Enums are declared using PascalCase including their member items.
-
+If you want less dense javascript from the compiler do this const enum Size ...
 
 
 // Turn this..
@@ -20,4 +20,7 @@ enum Size  { Small = 1, Medium = 2, Large = 3};
 let mySize: Size = Size.Medium;
 console.log(mySize);
 
-// If you want less dense javascript from the compiler do this const enum Size ...
+
+enum Direction { North, South, East, West};
+let myDirection: Direction = Direction.West;
+console.log(myDirection);
