@@ -3,7 +3,7 @@
 
 Interfaces
 
-Interfaces allows types to be easily shared between different variables/objects.
+Interfaces allows types to be easily shared between different objects.
 Interfaces are similar to type aliases, except they only apply to object types.
 Interfaces can extend each other's definition.
 
@@ -41,3 +41,22 @@ const coloredSquare : ColoredSquare = {
     width: 10,
     color: "red"
 };
+
+// More interfaces
+
+interface PostCard {
+    to: string,
+    from: string,
+    paid: boolean
+}
+
+interface DeliveredPostCard extends PostCard {
+    delivered: boolean
+}
+
+const deliveredPostCard : DeliveredPostCard = {
+    to: "Him",
+    from: "her",
+    paid: true,
+    delivered: true
+}
